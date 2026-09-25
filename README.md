@@ -1,70 +1,111 @@
 <p align="center">
-  <img src="icon.png" width="128" height="128" alt="MacCam icon">
+  <img src="icon.png" width="128" height="128" alt="MacCam app icon">
 </p>
 
-<h1 align="center">MacCam</h1>
+<h1 align="center">MacCam – the camera app for Mac</h1>
 
 <p align="center">
-  <b>A little more camera. A lot more Mac.</b><br>
-  The camera app your Mac never shipped with. Free, native and made by one person in Zurich.
+  <b>Take photos and videos on your Mac. Straight into Apple Photos.</b><br>
+  The simple, native camera app Apple never shipped. Free.
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇︎ Download the latest version</b></a>
-  &nbsp;·&nbsp; macOS 15+ &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; English &amp; Deutsch
+  <a href="https://github.com/milanrunscode/MacCam/releases/latest/download/MacCam.dmg"><b>⬇︎ Download MacCam (DMG)</b></a>
+  &nbsp;·&nbsp; <a href="https://maccam.app">maccam.app</a>
+  &nbsp;·&nbsp; macOS 15+ &nbsp;·&nbsp; Apple silicon &nbsp;·&nbsp; English, Deutsch, Français
+</p>
+
+<p align="center">
+  <img src="social-preview.png" width="720" alt="MacCam – the camera app for Mac with Photo Booth effects, Portrait, Studio Light, Edge Light and iPhone camera">
 </p>
 
 ---
 
-Photo Booth is for fun and FaceTime is for calls, but no Mac app simply lets you *take a good photo*. **MacCam** fills that gap. It feels like the iPhone Camera app, made for the Mac.
+## What is MacCam?
+
+**MacCam** is a free camera app for macOS. It takes photos and videos with the Mac’s built-in FaceTime camera, an iPhone (Continuity Camera) or any USB webcam and saves them straight into **Apple Photos**, so iCloud Photos puts them on your iPhone and iPad a moment later.
+
+It is the modern **alternative to Photo Booth**: the classic Photo Booth effects are still there, and the macOS video effects **Portrait**, **Studio Light** and **Edge Light** are built in natively. It feels like the iPhone Camera app, made for the Mac.
+
+MacCam is an independent app made in Zurich, Switzerland. It is not made by or affiliated with Apple.
 
 ## Features
 
-- **Photo & Video.** Press Space to capture and switch modes under the viewfinder. Timer, grid and a mirrored front camera are included.
-- **Any camera.** Use the built-in FaceTime camera, your iPhone through Continuity Camera or an external webcam, and switch between them at any time.
-- **Photographic Styles.** Apply looks while you shoot, not afterwards.
-- **System effects, one click away.** Portrait, Studio Light, Edge Light and Reactions are available where your Mac and camera support them.
-- **Good old Effects.** Classic retro webcam fun is back.
-- **Built-in library.** Captures go straight to the “Camera” album in Photos. You can view, zoom (photos *and* videos), share and delete them without leaving the app.
-- **Liquid Glass.** The app uses the full macOS 26 look and falls back gracefully to materials on macOS 15.
-- **Free one-click updates.** MacCam checks for new versions once a day, notifies you, then downloads and installs the update itself. No account, no subscription.
+- **Photo & video in one click.** Press Space to capture. Pause and resume videos, self-timer, grid, flash (screen light), focus and exposure.
+- **Any camera.** Built-in FaceTime camera, iPhone via Continuity Camera or an external webcam. Switch at any time.
+- **Photo Booth effects.** Black & White, Sepia, Comic, Thermal Camera, X-Ray, Bulge, Pinch, Twirl, Mirror, Kaleidoscope, Light Tunnel, Fisheye, Pixel, Poster, Sketch, Stretch, Squeeze.
+- **Native macOS effects.** Portrait (background blur), Studio Light, Edge Light and Reactions, where your Mac supports them.
+- **Photographic Styles.** Standard, Rich Contrast, Vibrant, Warm, Cool, Dramatic, Mood and Bright, adjustable by contrast, warmth and tint – applied while you shoot.
+- **Straight into Photos.** Every capture goes to the album “Camera” in Apple Photos. View, zoom, share and delete without leaving the app. Without Photos access it saves to Pictures › MacCam.
+- **Liquid Glass.** The full macOS 26 look, with a clean fallback on macOS 15.
+- **Signed one-click updates.** MacCam only installs updates signed by its developer.
+
+## MacCam vs. Photo Booth
+
+| | MacCam | Photo Booth |
+|---|:-:|:-:|
+| Photo Booth effects | ✓ | ✓ |
+| Portrait, Studio Light, Edge Light built in | ✓ | – |
+| Saves straight into Apple Photos / iCloud Photos | ✓ | – |
+| iPhone as camera (Continuity Camera) | ✓ | ✓ |
+| Photographic Styles | ✓ | – |
+| Video with pause and resume | ✓ | – |
+| Price | Free | Free |
 
 ## Install
 
-1. Download **`Mac-Cam-x.y.dmg`** from the [latest release](../../releases/latest).
+1. [Download **MacCam.dmg**](https://github.com/milanrunscode/MacCam/releases/latest/download/MacCam.dmg) (one file, always the latest version).
 2. Open it and drag **MacCam** onto **Applications**.
-3. Start MacCam from Applications.
+3. Start MacCam. A short tour explains each permission before macOS asks.
 
-> **First launch:** MacCam is an indie app and is not notarized by Apple yet. The first time you open it, macOS may say it “can’t be opened”.
-> Open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. You only need to do this once.
-> Check the download against the `.sha256` file attached to each release.
+> **First launch:** MacCam is not notarized by Apple yet. If macOS says it “can’t be opened”, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. You only need to do this once.
 
-MacCam asks for access to the **camera**, the **microphone** (for video) and **Photos** (to save and show your captures). Your photos and videos never leave your Mac. MacCam checks GitHub for updates and sends anonymous usage statistics (app and macOS version, Mac model, language, capture counts) via [TelemetryDeck](https://telemetrydeck.com/privacy/). You can turn the statistics off in **Settings → Privacy**.
+## FAQ
 
-## Updates
+**Is MacCam free?**
+Yes. MacCam is free to download and use. The first 100,000 users also get a free lifetime Pro license – confirm your email in the app or on [maccam.app](https://maccam.app).
 
-Open **MacCam → Check for Updates…**, or wait for the notification, then click **Update Now**. MacCam downloads the new version, replaces itself and restarts. Your settings and photos are kept.
+**Is MacCam made by Apple?**
+No. MacCam is an independent app. It follows Apple’s design so it feels like it belongs on the Mac.
 
-## Requirements
+**Does MacCam have Photo Booth effects?**
+Yes – all the classics, several with an intensity slider, plus Portrait, Studio Light and Edge Light.
 
-| | |
-|---|---|
-| macOS | 15 Sequoia or later. Liquid Glass needs macOS 26, Edge Light needs macOS 26.2 |
-| Mac | Apple Silicon (M1 or later) |
-| Camera | Built-in, Continuity Camera or USB webcam. Effects depend on your hardware |
+**Can I use my iPhone as the camera?**
+Yes. MacCam supports Continuity Camera, so your iPhone becomes the Mac’s camera.
+
+**Where are my photos and videos saved?**
+In Apple Photos, album “Camera”. With iCloud Photos they sync to all your devices. Without Photos access, in Pictures › MacCam.
+
+**Is it private?**
+The picture never leaves your Mac and MacCam uploads no photos or videos. It sends anonymous usage statistics (app and macOS version, Mac model, language, capture counts) via [TelemetryDeck](https://telemetrydeck.com/privacy/); you can turn them off in **Settings → Privacy**.
+
+**Which Macs are supported?**
+Apple silicon Macs (M1 or later) with macOS 15 Sequoia or later. Liquid Glass needs macOS 26, Edge Light needs macOS 26.2.
+
+**How do I update?**
+MacCam checks once a day and installs updates with one click (**MacCam → Check for Updates…**). Settings and photos are kept.
+
+## Links
+
+- Website: [maccam.app](https://maccam.app) · [Features](https://maccam.app/features) · [FAQ](https://maccam.app/faq) · [Help](https://maccam.app/help) · [Changelog](https://maccam.app/changelog)
+- For AI assistants: [maccam.app/llms.txt](https://maccam.app/llms.txt)
+- All versions: [Releases](https://github.com/milanrunscode/MacCam/releases)
 
 ---
 
 <details>
-<summary><b>🇩🇪 Auf Deutsch</b></summary>
+<summary><b>🇩🇪 MacCam auf Deutsch – die Kamera-App für den Mac</b></summary>
 
-**MacCam** ist die Kamera-App, die dem Mac immer gefehlt hat. Du nimmst Fotos und Videos mit der eingebauten Kamera, deinem iPhone oder einer Webcam auf, mit fotografischen Stilen, Systemeffekten und Retro-Effekten. Die Aufnahmen landen direkt in Fotos. Die App ist kostenlos, braucht kein Konto und sammelt keine Daten.
+**MacCam** ist die kostenlose Kamera-App für den Mac. Du machst Fotos und Videos mit der eingebauten Kamera, deinem iPhone (Integrationskamera) oder einer Webcam. Alles landet direkt in Apple Fotos und ist dank iCloud-Fotos gleich auf iPhone und iPad.
 
-**Installation:** Lade die DMG aus dem [neuesten Release](../../releases/latest), öffne sie und ziehe MacCam in „Programme“. Blockiert macOS den ersten Start, öffne **Systemeinstellungen → Datenschutz & Sicherheit** und klicke auf **Trotzdem öffnen**. Das ist nur einmal nötig.
+MacCam ist die moderne **Alternative zu Photo Booth**: Die bekannten Photo-Booth-Effekte sind dabei, dazu Porträt, Studiolicht und Kantenlicht von macOS.
 
-**Updates:** MacCam prüft einmal täglich, ob es eine neue Version gibt, benachrichtigt dich und installiert sie mit einem Klick. Manuell geht es über **MacCam → Nach Updates suchen …**.
+**Installation:** [MacCam.dmg laden](https://github.com/milanrunscode/MacCam/releases/latest/download/MacCam.dmg), öffnen und MacCam in „Programme“ ziehen. Blockiert macOS den ersten Start: **Systemeinstellungen → Datenschutz & Sicherheit → Trotzdem öffnen**. Das ist nur einmal nötig.
 
-**Datenschutz:** Deine Fotos und Videos verlassen nie deinen Mac. MacCam sendet anonyme Nutzungsstatistiken (App- und macOS-Version, Mac-Modell, Sprache, Anzahl Aufnahmen), abschaltbar unter **Einstellungen → Datenschutz**.
+**Kostenlos:** Die ersten 100’000 Nutzer bekommen eine Pro-Lizenz auf Lebenszeit – E-Mail in der App oder auf [maccam.app](https://maccam.app) bestätigen.
+
+**Datenschutz:** Fotos und Videos verlassen nie deinen Mac. Anonyme Nutzungsstatistiken lassen sich unter **Einstellungen → Datenschutz** ausschalten.
 </details>
 
-<p align="center"><sub>Made with ❤️ in Zurich · <a href="https://github.com/milanrunscode">@milanrunscode</a></sub></p>
+<p align="center"><sub>Made in Zurich · <a href="https://maccam.app">maccam.app</a></sub></p>
