@@ -108,4 +108,4 @@ MacCam ist die moderne **Alternative zu Photo Booth**: Die bekannten Photo-Booth
 **Datenschutz:** Fotos und Videos verlassen nie deinen Mac. Anonyme Nutzungsstatistiken lassen sich unter **Einstellungen → Datenschutz** ausschalten.
 </details>
 
-<p align="center"><sub>Made in Zurich · <a href="https://maccam.app">maccam.app</a></sub></p>
+<p align="center"><sub>Made in Zurich · <a href="https://maccam.app">maccam.app</a><br>MacCam is not affiliated with, endorsed or sponsored by Apple Inc. Apple, Mac, macOS, iPhone, iCloud, FaceTime, Photo Booth and Continuity Camera are trademarks of Apple Inc.</sub></p>
