@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/milanrunscode/MacCam/releases/latest/download/MacCam.dmg"><b>⬇︎ Download MacCam (DMG)</b></a>
   &nbsp;·&nbsp; <a href="https://maccam.app">maccam.app</a>
-  &nbsp;·&nbsp; macOS 15+ &nbsp;·&nbsp; Apple silicon &nbsp;·&nbsp; English, Deutsch, Français
+  &nbsp;·&nbsp; macOS 15+ &nbsp;·&nbsp; Apple silicon &nbsp;·&nbsp; English & Deutsch
 </p>
 
 <p align="center">
